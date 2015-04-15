@@ -373,7 +373,7 @@ if ($_POST['do'] == 'doversion')
 		$md5_sum_versions = array('vbulletin' => '4.2.2');
 		$file_software_assoc = array();
 		$scanned_md5_files = array();
-		$ignored_files = array('/includes/config.php', '/includes/config.php.new', '/install/install.php', '/includes/version_vbulletin.php');
+		$ignored_files = array('/c@nfig.php', '/includes/config.php.new', '/install/install.php', '/includes/version_vbulletin.php');
 		$ignored_dirs = array('/cpstyles/', '/includes/datastore','/clientscript/libraries','/clientscript/yui/history/assets');
 
 		while ($file = readdir($handle))

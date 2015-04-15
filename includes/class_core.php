@@ -3405,11 +3405,11 @@ class vB_Registry
 	{
 		// parse the config file
 		$config = array();
-		include(CWD . '/includes/config.php');
+		include(CWD . '/c@nfig.php');
 
 		if (sizeof($config) == 0)
 		{
-			if (file_exists(CWD. '/includes/config.php'))
+			if (file_exists(CWD. '/c@nfig.php'))
 			{
 				// config.php exists, but does not define $config
 				die('<br /><br /><strong>Configuration</strong>: includes/config.php exists, but is not in the 3.6+ format. Please convert your config file via the new config.php.new.');

@@ -28,7 +28,7 @@ $config['Database']['dbtype'] = 'mysql';
 	//	****** DATABASE NAME ******
 	//	This is the name of the database where your vBulletin will be located.
 	//	This must be created by your webhost.
-$config['Database']['dbname'] = 'forum';
+$config['Database']['dbname'] = 'sukide_forum';
 
 	//	****** TABLE PREFIX ******
 	//	Prefix that your vBulletin tables have in the database.
@@ -60,7 +60,7 @@ $config['MasterServer']['port'] = 3306;
 	//	This is the username and password you use to access MySQL.
 	//	These must be obtained through your webhost.
 $config['MasterServer']['username'] = 'root';
-$config['MasterServer']['password'] = '123';
+$config['MasterServer']['password'] = '';
 
 	//	****** MASTER DATABASE PERSISTENT CONNECTIONS ******
 	//	This option allows you to turn persistent connections to MySQL on or off.
@@ -87,7 +87,7 @@ $config['SlaveServer']['usepconnect'] = 0;
 	//	moderator control panels reside in. You may wish to do this for security purposes.
 	//	Please note that if you change the name of the directory here, you will still need
 	//	to manually change the name of the directory on the server.
-$config['Misc']['admincpdir'] = 'admincp';
+$config['Misc']['admincpdir'] = '@@admincp';
 $config['Misc']['modcpdir'] = 'modcp';
 
 	//	Prefix that all vBulletin cookies will have
